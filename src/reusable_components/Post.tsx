@@ -1,6 +1,12 @@
 import React from "react";
 import Link from "next/link";
-import { Post } from "@/getposts";
+export interface Post {
+  slug: string;
+  title: string;
+  date: string;
+  snippet: string;
+}
+
 export function Post({ posts }: { posts: Post[] }) {
   return (
     <div className="flex w-full flex-col">
