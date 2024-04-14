@@ -221,9 +221,9 @@ const About = () => {
                   into production.
                 </p>
                 <div className="mb-4 mt-4 grid grid-flow-col">
-                  <div class="badge badge-ghost">React js.</div>
-                  <div class="badge badge-ghost">Tailwind</div>
-                  <div class="badge badge-ghost">Firebase</div>
+                  <div className="badge badge-ghost">React js.</div>
+                  <div className="badge badge-ghost">Tailwind</div>
+                  <div className="badge badge-ghost">Firebase</div>
                 </div>
                 <div className="card-actions justify-end">
                   <a target="_blank" href="https://github.com/odis43/blog">
@@ -247,7 +247,7 @@ const About = () => {
               <div className="card-body">
                 <div className="columns-2">
                   <h2 className="card-title">UW NAV</h2>
-                  <div class="badge badge mt-[5px] bg-black text-xs text-white">
+                  <div className="badge badge mt-[5px] bg-black text-xs text-white">
                     in progress
                   </div>
                 </div>
@@ -257,8 +257,8 @@ const About = () => {
                   uWaterloo&apos;s campus
                 </p>
                 <div className="mb-4 mt-4 grid grid-flow-col">
-                  <div class="badge badge-ghost">Next js.</div>
-                  <div class="badge badge-ghost">Tailwind</div>
+                  <div className="badge badge-ghost">Next js.</div>
+                  <div className="badge badge-ghost">Tailwind</div>
                 </div>
                 <div className="card-actions justify-end">
                   <a target="_blank" href="https://github.com/odis43/uwnav">
@@ -287,7 +287,7 @@ const About = () => {
                   Observer/Notifier design pattern.
                 </p>
                 <div className="mb-4 mt-4 grid grid-flow-col">
-                  <div class="badge badge-ghost">C++</div>
+                  <div className="badge badge-ghost">C++</div>
                 </div>
                 <div className="card-actions justify-end">
                   <a target="_blank" href="https://github.com/odis43/CLI-chess">
@@ -311,9 +311,9 @@ const About = () => {
                   Spotify artist page and made use of Spotify&apos;s public API.
                 </p>
                 <div className="mb-4 mt-4 grid grid-flow-col">
-                  <div class="badge badge-ghost">React js</div>
-                  <div class="badge badge-ghost">CSS</div>
-                  <div class="badge badge-ghost">REST API</div>
+                  <div className="badge badge-ghost">React js</div>
+                  <div className="badge badge-ghost">CSS</div>
+                  <div className="badge badge-ghost">REST API</div>
                 </div>
                 <div className="card-actions justify-end">
                   <a target="_blank" href="https://odis43.github.io/Portfolio/">
@@ -341,8 +341,8 @@ const About = () => {
                   Pre-training API
                 </p>
                 <div className="mb-4 mt-4 grid grid-flow-col">
-                  <div class="badge badge-ghost">React js</div>
-                  <div class="badge badge-ghost">CSS</div>
+                  <div className="badge badge-ghost">React js</div>
+                  <div className="badge badge-ghost">CSS</div>
                 </div>
                 <div className="card-actions justify-end">
                   <a href="https://github.com/odis43/Drawdle" target="_blank">
