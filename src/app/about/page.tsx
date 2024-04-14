@@ -22,7 +22,7 @@ const About = () => {
           whomst!
         </div>
         <div className="mb-12 ml-6 w-80 text-base font-medium sm:mt-10 sm:w-1/2 sm:text-lg">
-          Hey! My name is Oditha Amarasinghe. I'm a third year student at the
+          Hey! My name is Oditha Amarasinghe. I'apos;m a third year student at the
           University of Waterloo studying Computer Science with a specialization
           in Business. I've loved minimalist design for as long as I can
           remember and this blog was made with that vision in mind.
