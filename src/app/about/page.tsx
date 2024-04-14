@@ -25,7 +25,7 @@ const About = () => {
           Hey! My name is Oditha Amarasinghe. I'm a third year student at the
           University of Waterloo studying Computer Science with a specialization
           in Business. I've loved minimalist design for as long as I can
-          rememember and this blog was made with that vision in mind.
+          remember and this blog was made with that vision in mind.
         </div>
         <div className="mb-5 ml-4 mt-6 grid grid-cols-3 sm:mt-3 sm:w-72">
           <a target="_blank" href="https://github.com/odis43">
@@ -210,7 +210,7 @@ const About = () => {
                 <p>
                   A minimalist site made to share my interests and goals. Makes
                   use of firebase realtime db to enable live updates to
-                  album/film reviews (go to the "Reviews" page to check it out!)
+                  album/film reviews (go to the <b><a href="reviews" target="_blank">Reviews</a> </b>page to check it out!)
                   without the need to re-publish the site into production.
                 </p>
                 <div className="mb-4 mt-4 grid grid-flow-col">
@@ -312,40 +312,6 @@ const About = () => {
                     <button className="btn hover:bg-black hover:text-white">
                       Check it out!
                     </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="carousel-item">
-            <div className="card w-96 bg-white shadow-xl">
-              <figure className="border-b-2 border-black">
-                <Image className="h-56 w-full" src={cutscene} alt="blog" />
-              </figure>
-              <div className="card-body">
-                <div className="columns-2">
-                  <h2 className="card-title">Cutscene</h2>
-                  <div class="badge badge mt-[5px] bg-black text-xs text-white">
-                    in progress
-                  </div>
-                </div>
-                <p>
-                  Built to be a true "Letterboxd" for gamers. The vision is for
-                  the gaming community to rank, review and discuss their
-                  favourite games.
-                </p>
-                <div className="mb-4 mt-4 grid grid-flow-col">
-                  <div class="badge badge-ghost">React js</div>
-                  <div class="badge badge-ghost">Tailwind</div>
-                  <div class="badge badge-ghost">Firebase</div>
-                </div>
-                <div className="card-actions justify-end">
-                  <a href="https://github.com/odis43/Cutscene" target="_blank">
-                    <div className="card-actions justify-end">
-                      <button className="btn hover:bg-black hover:text-white">
-                        Check it out!
-                      </button>
-                    </div>
                   </a>
                 </div>
               </div>
