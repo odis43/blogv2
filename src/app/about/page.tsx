@@ -22,10 +22,11 @@ const About = () => {
           whomst!
         </div>
         <div className="mb-12 ml-6 w-80 text-base font-medium sm:mt-10 sm:w-1/2 sm:text-lg">
-          Hey! My name is Oditha Amarasinghe. I'apos;m a third year student at the
-          University of Waterloo studying Computer Science with a specialization
-          in Business. I've loved minimalist design for as long as I can
-          remember and this blog was made with that vision in mind.
+          Hey! My name is Oditha Amarasinghe. I&apos;m a third year student at
+          the University of Waterloo studying Computer Science with a
+          specialization in Business. I&apos;ve loved minimalist design for as
+          long as I can remember and this blog was made with that vision in
+          mind.
         </div>
         <div className="mb-5 ml-4 mt-6 grid grid-cols-3 sm:mt-3 sm:w-72">
           <a target="_blank" href="https://github.com/odis43">
@@ -210,8 +211,14 @@ const About = () => {
                 <p>
                   A minimalist site made to share my interests and goals. Makes
                   use of firebase realtime db to enable live updates to
-                  album/film reviews (go to the <b><a href="reviews" target="_blank">Reviews</a> </b>page to check it out!)
-                  without the need to re-publish the site into production.
+                  album/film reviews (go to the{" "}
+                  <b>
+                    <a href="reviews" target="_blank">
+                      Reviews
+                    </a>{" "}
+                  </b>
+                  page to check it out!) without the need to re-publish the site
+                  into production.
                 </p>
                 <div className="mb-4 mt-4 grid grid-flow-col">
                   <div class="badge badge-ghost">React js.</div>
@@ -245,8 +252,9 @@ const About = () => {
                   </div>
                 </div>
                 <p>
-                  An app that makes use of Dijkstra's shortest path algorithm to
-                  find the best route between classes on uWaterloo's campus
+                  An app that makes use of Dijkstra&apos;s shortest path
+                  algorithm to find the best route between classes on
+                  uWaterloo&apos;s campus
                 </p>
                 <div className="mb-4 mt-4 grid grid-flow-col">
                   <div class="badge badge-ghost">Next js.</div>
@@ -300,7 +308,7 @@ const About = () => {
                 <h2 className="card-title">Old portfolio</h2>
                 <p>
                   An old design for my portfolio that was inspired by the
-                  Spotify artist page and made use of Spotify's public API.
+                  Spotify artist page and made use of Spotify&apos;s public API.
                 </p>
                 <div className="mb-4 mt-4 grid grid-flow-col">
                   <div class="badge badge-ghost">React js</div>

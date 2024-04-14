@@ -10,7 +10,7 @@ function FrontPage() {
     <div className="relative mt-24  flex flex-col justify-center items-center overflow-hidden bg-white sm:items-center pr-16">
       <div className="mr-16">
         <div className="font-poppins text-5xl font-bold sm:text-8xl">
-          Hello, I'm Odi!
+          Hello, I&apos;m Odi!
         </div>
         <div className="font-poppins w-80 text-5xl font-bold text-blue-600 text-opacity-50 sm:w-[100%] sm:text-8xl">
           Welcome to my space.
