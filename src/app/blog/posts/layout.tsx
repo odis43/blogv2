@@ -1,4 +1,3 @@
-import { Meta } from "@/getposts";
 import Nav from "@/reusable_components/Nav";
 export default function MdxLayout({ children }: { children: React.ReactNode }) {
   return (
