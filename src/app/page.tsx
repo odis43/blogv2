@@ -16,7 +16,7 @@ function FrontPage() {
           Welcome to my space.
         </div>
       </div>
-      <div className="justify-center mb-12 mt-12 flex flex-col gap-24 gap-20 grid sm:mt-18 sm:ml-24 sm: flex sm:flex-row sm:gap-10 sm:hidden">
+      <div className="ml-[10%] mb-12 mt-12 flex flex-col gap-24 gap-20  sm:mt-18 sm:ml-24 sm: flex sm:flex-row sm:gap-10 ">
 
         <Link href="/about">
           <Card title={"about me"} img={lazy} />
