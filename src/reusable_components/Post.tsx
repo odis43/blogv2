@@ -11,7 +11,7 @@ export function Post({ posts }: { posts: Post[] }) {
   return (
     <div className="flex w-full flex-col">
       {posts.map(({ slug, title, snippet }) => (
-        <div key={slug} className="grid h-40 place-items-start align-middle">
+        <div key={slug} className="grid h-40 place-items-start align-middle w-[90%] sm:w-[100%]">
           <Link href={`/blog/posts/${slug}`}>
             <h2 className="text-lg font-bold">{title}</h2>
             <p>{snippet}</p>

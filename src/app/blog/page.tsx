@@ -16,7 +16,7 @@ export default async function Blog() {
         <div className="ml-4 font-poppins text-7xl font-bold sm:text-8xl">
           blog.
         </div>
-        <div className="ml-4 w-80 text-base font-medium sm:mt-10 sm:w-1/2 sm:text-lg">
+        <div className="sm:mt-10 mt-9 ml-4 w-80 text-base font-medium sm:mt-10 sm:w-1/2 sm:text-lg">
           Welcome to my blog where I write about things I find cool. I hope you
           do too :)
         </div>
