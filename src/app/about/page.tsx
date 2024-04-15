@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Nav from "@/reusable_components/Nav";
+import { Suspense } from "react";
 import blog from "../../images/blogpage.png";
 import old from "../../images/oldport.png";
 import cutscene from "../../images/cut.jpeg";
@@ -11,6 +12,7 @@ import lazy from "../../images/9.Laziness.png";
 import uwaterloo from "../../images/uwaterloo.png";
 import Image from "next/image";
 import drawdle from "../../images/drawdle.png";
+import Loading from "./loading";
 
 const About = () => {
   return (
@@ -204,7 +206,7 @@ const About = () => {
           <div className="carousel-item sm:w-100 m-0">
             <div className="card w-96 bg-white shadow-xl">
               <figure className="border-b-2 border-black">
-                <Image className="h-56 w-full" src={blog} alt="blog" />
+                <Suspense fallback={<Loading />}><Image className="h-56 w-full" src={blog} alt="blog" /></Suspense>
               </figure>
               <div className="card-body">
                 <h2 className="card-title">Personal Blog</h2>
@@ -238,11 +240,11 @@ const About = () => {
           <div className="carousel-item">
             <div className="card w-96 bg-white shadow-xl">
               <figure className="border-b-2 border-black">
-                <Image
+                <Suspense fallback={<Loading />}><Image
                   className="h-56 w-full object-contain"
                   src={uwaterloo}
                   alt="blog"
-                />
+                /></Suspense>
               </figure>
               <div className="card-body">
                 <div className="columns-2">
@@ -273,11 +275,11 @@ const About = () => {
           <div className="carousel-item">
             <div className="card w-96 bg-white shadow-xl">
               <figure className="border-b-2 border-black">
-                <Image
-                  className="h-56 w-full overflow-auto"
-                  src={chess}
+                <Suspense fallback={<Loading />}><Image
+                  className="h-56 w-full object-contain"
+                  src={blog}
                   alt="blog"
-                />
+                /></Suspense>
               </figure>
               <div className="card-body">
                 <h2 className="card-title">CLI Chess</h2>
@@ -301,9 +303,11 @@ const About = () => {
           </div>
           <div className="carousel-item">
             <div className="card w-96 bg-white shadow-xl">
-              <figure className="border-b-2 border-black">
-                <Image className="h-56 w-full" src={old} alt="blog" />
-              </figure>
+              <Suspense fallback={<Loading />}><Image
+                className="h-56 w-full object-contain"
+                src={old}
+                alt="blog"
+              /></Suspense>
               <div className="card-body">
                 <h2 className="card-title">Old portfolio</h2>
                 <p>
@@ -328,7 +332,7 @@ const About = () => {
           <div className="carousel-item">
             <div className="card w-96 bg-white shadow-xl">
               <figure className="border-b-2 border-black">
-                <Image className="h-56 w-full" src={drawdle} alt="blog" />
+                <Suspense fallback={<Loading />}><Image className="h-56 w-full" src={drawdle} alt="blog" /></Suspense>
               </figure>
               <div className="card-body">
                 <div className="columns-2">
