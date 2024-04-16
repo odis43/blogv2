@@ -12,7 +12,7 @@ function FrontPage() {
         <div className="font-poppins text-5xl font-bold sm:text-8xl">
           Hello, I&apos;m Odi!
         </div>
-        <div className="text-left ml-7 font-poppins w-80 text-5xl font-bold text-blue-600 text-opacity-50 sm:w-[100%] sm:text-8xl sm:ml-0">
+        <div className="text-left ml-6 font-poppins w-80 text-5xl font-bold text-blue-600 text-opacity-50 sm:w-[100%] sm:text-8xl sm:ml-0">
           Welcome to my space.
         </div>
       </div>
