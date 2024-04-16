@@ -19,5 +19,5 @@ export async function getPosts(): Promise<Post[]> {
     })
   );
   posts.sort((a, b) => +new Date(b.publishDate) - +new Date(a.publishDate));
-  return [...posts.slice(0, 2)];
+  return [...posts.slice(0, 1)];
 }
