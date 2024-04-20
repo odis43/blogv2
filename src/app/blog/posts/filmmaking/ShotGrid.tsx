@@ -1,10 +1,9 @@
 export default function ShotGrid() {
   return (
-    <div className="grid grid-cols-2 gap-y-2 gap-x-16">
-      <div className="card h-72 w-96 bg-base-100 shadow-xl image-full">
+    <div className="grid grid-cols-2 gap-x-20 gap-y-2">
+      <div className="card w-96 h-72 bg-base-100 shadow-xl image-full rounded-none ">
         <figure>
           <img
-            className="overflow-hidden"
             src="https://asset.eyecannndy.com/media/clip/2023/12/23/261703311513.webp"
             alt="Shoes"
           />
@@ -14,7 +13,7 @@ export default function ShotGrid() {
         </div>
       </div>
 
-      <div className="card h-72  w-96 bg-base-100 shadow-xl image-full">
+      <div className="card w-96 h-72 bg-base-100 shadow-xl image-full rounded-none">
         <figure className="object-fill">
           <img
             src="https://asset.eyecannndy.com/media/clip/2024/02/20/261708425207.webp"
@@ -26,7 +25,7 @@ export default function ShotGrid() {
         </div>
       </div>
 
-      <div className="card h-72 w-96 bg-base-100 shadow-xl image-full">
+      <div className="card w-96 h-72 bg-base-100 shadow-xl image-full rounded-none">
         <figure>
           <img
             src="https://asset.eyecannndy.com/media/clip/2024/01/24/261706085822.webp"
@@ -38,7 +37,7 @@ export default function ShotGrid() {
         </div>
       </div>
 
-      <div className="card w-96 h-72 bg-base-100 shadow-xl image-full">
+      <div className="card w-96 h-72 bg-base-100 shadow-xl image-full rounded-none">
         <figure>
           <img
             src="https://asset.eyecannndy.com/media/clip/2023/12/15/261702684119.webp"
@@ -50,5 +49,6 @@ export default function ShotGrid() {
         </div>
       </div>
     </div>
+
   );
 }
