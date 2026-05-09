@@ -2,12 +2,12 @@ import React from "react";
 import Card from "@/reusable_components/Card";
 import lazy from "../images/9.Laziness.png";
 import search from "../images/2.Searching.png";
-import news from "../images/1.Newspaper.png";
 import Link from "next/link";
-//remember: breakpoints effect that size and above. non-prefixed -> for mobile
+import halfnote from "../images/halfnote.png";
+
 function FrontPage() {
   return (
-    <div className="sm:relative sm:mt-24 sm:flex sm:flex-col sm:justify-center sm:items-center sm:overflow-hidden bg-white sm:items-center sm:pr-16">
+    <div className="sm:relative sm:mt-24 sm:flex sm:flex-col sm:justify-center sm:items-center sm:overflow-hidden bg-white sm:pr-16">
       <div className="text-center mt-10 sm:text-left">
         <div className="font-poppins text-5xl font-bold sm:text-8xl">
           Hello, I&apos;m Odi!
@@ -16,13 +16,16 @@ function FrontPage() {
           Welcome to my space.
         </div>
       </div>
-      <div className="ml-[10%] mb-12 mt-12 flex flex-col gap-24 gap-20  sm:mt-18 sm:ml-24 sm: flex sm:flex-row sm:gap-10 ">
-
+      <div className="ml-[10%] mb-12 mt-12 flex flex-col gap-24 sm:mt-18 sm:ml-24 sm: sm:flex-row sm:gap-10 ">
         <Link href="/about">
           <Card title={"about me"} img={lazy} />
         </Link>
-        <Link href="/reviews">
-          <Card title={"reviews"} img={news} />
+        <Link href="/halfnote">
+          <Card
+            title={"Halfnote"}
+            img={halfnote}
+            imgClassName="w-60 h-60 object-contain"
+          />
         </Link>
         <Link href="/blog">
           <Card title={"blog"} img={search} />

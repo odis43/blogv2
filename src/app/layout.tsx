@@ -18,12 +18,6 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-
-        <meta name="theme-color" content="#000000" />
-        <meta
-          name="description"
-          content="Web site created using create-react-app"
-        />
         <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
         <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
@@ -55,6 +49,10 @@ export default function RootLayout({
         />
         <link
           href="https://fonts.googleapis.com/css2?family=Oxygen&family=Poppins:ital,wght@0,400;0,500;0,700;1,500&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap"
           rel="stylesheet"
         />
         <link

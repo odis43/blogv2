@@ -25,8 +25,8 @@ const Nav = () => {
           <Link href="/about" className="hover:text-gray-500">
             whomst!
           </Link>
-          <Link href="/reviews" className="hover:text-gray-500">
-            reviews
+          <Link href="/halfnote" className="hover:text-gray-500">
+            halfnote
           </Link>
           <Link href="/blog" className="hover:text-gray-500">
             blog

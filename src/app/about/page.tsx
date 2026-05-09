@@ -16,7 +16,7 @@ import Loading from "./loading";
 
 const About = () => {
   return (
-    <div className="relative overflow-y-auto bg-white">
+    <div className="relative overflow-y-auto bg-white mb-10">
       <Nav />
       <div className="mt-18 sm:ml-24">
         <Image className="w-60 sm:w-72" src={lazy} alt="" />
@@ -24,11 +24,10 @@ const About = () => {
           whomst!
         </div>
         <div className="mb-12 ml-6 w-80 text-base font-medium sm:mt-10 sm:w-1/2 sm:text-lg">
-          Hey! My name is Oditha Amarasinghe. I&apos;m a third year student at
-          the University of Waterloo studying Computer Science with a
-          specialization in Business. I&apos;ve loved minimalist design for as
-          long as I can remember and this blog was made with that vision in
-          mind.
+          Hey! My name is Oditha Amarasinghe. I'm a recent computer science
+          graduate from the University of Waterloo and I've come to love
+          software for the purpose of building and bonding communities through
+          code.
         </div>
         <div className="mb-5 ml-4 mt-6 grid grid-cols-3 sm:mt-3 sm:w-72">
           <a target="_blank" href="https://github.com/odis43">
@@ -45,17 +44,7 @@ const About = () => {
               alt="Linkedin"
             />
           </a>
-          {/* <Link to={resume} target="_blank">
-            <img
-              className="h-10 w-10 hover:opacity-50"
-              src={resumeicon}
-              alt="Resume"
-            />
-          </Link> */}
         </div>
-        {/* {window.innerWidth < 640 ? (
-          <div className="border-b-2 border-black mb-5"></div>
-        ) : null} */}
 
         <div
           className={`mb-5 mt-10 flex justify-center text-6xl font-extrabold sm:mb-0 sm:justify-normal`}
@@ -74,17 +63,18 @@ const About = () => {
             >
               <path
                 fillRule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16z"
                 clipRule="evenodd"
               />
             </svg>
           </div>
           <div className="timeline-start mb-10 md:text-end">
-            <time className="font-mono italic">Jan 2024 - present</time>
-            <div className="text-lg font-black">
-              Interac - Technical Product Analyst
+            <time className="font-mono italic">May 2026 - present</time>
+            <div className="text-lg font-black">1Password - Software Eng</div>
+            <div className="sm:w-96">
+              Currently working on GraphQL integrations on the Platform
+              Advancement team.
             </div>
-            <div className="sm:w-96">Currently working here.</div>
           </div>
           <hr className="bg-black" />
         </li>
@@ -99,7 +89,131 @@ const About = () => {
             >
               <path
                 fillRule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </div>
+          <div className="timeline-end mb-10">
+            <time className="font-mono italic">Jan 2026 - Apr 2026</time>
+            <div className="text-lg font-black">1Password - Software Eng</div>
+            <div className="sm:w-96">
+              Worked on the Platform Advancement team where I reduced the bundle
+              size of a 1Password browser extension package by 70%, ensuring we
+              were up to par with performance regulations and browser size
+              compliance rules. This internship allowed me to really hone in on
+              AI workflows where I utilized parallel agents via git worktrees to
+              ensure cross repo changes were able to be pushed with minimal
+              downtime.
+            </div>
+          </div>
+          <hr className="bg-black" />
+        </li>
+        <li>
+          <hr className="bg-black" />
+          <div className="timeline-middle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              className="h-5 w-5"
+            >
+              <path
+                fillRule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </div>
+          <div className="timeline-start mb-10 md:text-end">
+            <time className="font-mono italic">May 2025 - Aug 2025</time>
+            <div className="text-lg font-black">
+              Telus Digital - Software Eng
+            </div>
+            <div className="sm:w-96">
+              Worked on an AI recruitment platform and was the last intern class
+              before the project was fully shipped to production and handed off
+              to a separate team — meaning I was working on many feature
+              projects that made its way to a 600k+ user web-app. I also led
+              large scale refactors of legacy systems, implementing new and more
+              efficient ways to ensure the user experience was top notch.
+            </div>
+          </div>
+          <hr className="bg-black" />
+        </li>
+        <li>
+          <hr className="bg-black" />
+          <div className="timeline-middle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              className="h-5 w-5"
+            >
+              <path
+                fillRule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </div>
+          <div className="timeline-end mb-10">
+            <time className="font-mono italic">May 2024 - Aug 2024</time>
+            <div className="text-lg font-black">Interac - Frontend Eng</div>
+            <div className="sm:w-96">
+              Pivoted to a frontend role where I ended up building the same
+              components and prototypes I laid out at the product analyst role.
+              Built internal dev tools like an intuitive, custom translation
+              package, and spearheaded the transition of FE code to a new
+              monolithic architecture via NX monorepos.
+            </div>
+          </div>
+          <hr className="bg-black" />
+        </li>
+        <li>
+          <hr className="bg-black" />
+          <div className="timeline-middle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              className="h-5 w-5"
+            >
+              <path
+                fillRule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </div>
+          <div className="timeline-start mb-10 md:text-end">
+            <time className="font-mono italic">Jan 2024 - Apr 2024</time>
+            <div className="text-lg font-black">
+              Interac - Technical Product Analyst
+            </div>
+            <div className="sm:w-96">
+              Architected large scale payment prototypes through sequence
+              diagrams and other visual flows, integrating OIDC auth and
+              internal APIs to ensure a seamless UX. Also began to build the
+              architecture for a frontend development internal code
+              restructuring that I eventually implemented during my next term at
+              the company.
+            </div>
+          </div>
+          <hr className="bg-black" />
+        </li>
+        <li>
+          <hr className="bg-black" />
+          <div className="timeline-middle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              className="h-5 w-5"
+            >
+              <path
+                fillRule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16z"
                 clipRule="evenodd"
               />
             </svg>
@@ -129,7 +243,7 @@ const About = () => {
             >
               <path
                 fillRule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16z"
                 clipRule="evenodd"
               />
             </svg>
@@ -159,7 +273,7 @@ const About = () => {
             >
               <path
                 fillRule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16z"
                 clipRule="evenodd"
               />
             </svg>
@@ -189,14 +303,14 @@ const About = () => {
             >
               <path
                 fillRule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16z"
                 clipRule="evenodd"
               />
             </svg>
           </div>
         </li>
       </ul>
-      <div className={`sm:ml-24 sm:mt-10`}>
+      {/* <div className={`sm:ml-24 sm:mt-10`}>
         <div
           className={`mb-5 flex justify-center text-6xl font-extrabold sm:mb-0 sm:mt-10 sm:justify-normal`}
         >
@@ -206,7 +320,9 @@ const About = () => {
           <div className="carousel-item sm:w-100 m-0">
             <div className="card w-96 bg-white shadow-xl">
               <figure className="border-b-2 border-black">
-                <Suspense fallback={<Loading />}><Image className="h-56 w-full" src={blog} alt="blog" /></Suspense>
+                <Suspense fallback={<Loading />}>
+                  <Image className="h-56 w-full" src={blog} alt="blog" />
+                </Suspense>
               </figure>
               <div className="card-body">
                 <h2 className="card-title">Personal Blog</h2>
@@ -240,11 +356,13 @@ const About = () => {
           <div className="carousel-item">
             <div className="card w-96 bg-white shadow-xl">
               <figure className="border-b-2 border-black">
-                <Suspense fallback={<Loading />}><Image
-                  className="h-56 w-full object-contain"
-                  src={uwaterloo}
-                  alt="blog"
-                /></Suspense>
+                <Suspense fallback={<Loading />}>
+                  <Image
+                    className="h-56 w-full object-contain"
+                    src={uwaterloo}
+                    alt="blog"
+                  />
+                </Suspense>
               </figure>
               <div className="card-body">
                 <div className="columns-2">
@@ -275,11 +393,13 @@ const About = () => {
           <div className="carousel-item">
             <div className="card w-96 bg-white shadow-xl">
               <figure className="border-b-2 border-black">
-                <Suspense fallback={<Loading />}><Image
-                  className="h-56 w-full object-contain"
-                  src={blog}
-                  alt="blog"
-                /></Suspense>
+                <Suspense fallback={<Loading />}>
+                  <Image
+                    className="h-56 w-full object-contain"
+                    src={blog}
+                    alt="blog"
+                  />
+                </Suspense>
               </figure>
               <div className="card-body">
                 <h2 className="card-title">CLI Chess</h2>
@@ -303,11 +423,13 @@ const About = () => {
           </div>
           <div className="carousel-item">
             <div className="card w-96 bg-white shadow-xl">
-              <Suspense fallback={<Loading />}><Image
-                className="h-56 w-full object-contain"
-                src={old}
-                alt="blog"
-              /></Suspense>
+              <Suspense fallback={<Loading />}>
+                <Image
+                  className="h-56 w-full object-contain"
+                  src={old}
+                  alt="blog"
+                />
+              </Suspense>
               <div className="card-body">
                 <h2 className="card-title">Old portfolio</h2>
                 <p>
@@ -332,7 +454,9 @@ const About = () => {
           <div className="carousel-item">
             <div className="card w-96 bg-white shadow-xl">
               <figure className="border-b-2 border-black">
-                <Suspense fallback={<Loading />}><Image className="h-56 w-full" src={drawdle} alt="blog" /></Suspense>
+                <Suspense fallback={<Loading />}>
+                  <Image className="h-56 w-full" src={drawdle} alt="blog" />
+                </Suspense>
               </figure>
               <div className="card-body">
                 <div className="columns-2">
@@ -361,7 +485,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
