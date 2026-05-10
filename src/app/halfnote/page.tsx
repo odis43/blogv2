@@ -14,8 +14,6 @@ import album from "../../images/album.png";
 import profile from "../../images/profile.png";
 import { StaticImageData } from "next/image";
 
-// TODO: fill in each description. `span` and `aspect` control the cell's
-// footprint in the collage grid — adjust if you swap images around.
 const screenshots: {
   img: StaticImageData;
   description: string;
