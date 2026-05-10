@@ -57,6 +57,7 @@ export default function RootLayout({
           integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV"
           crossOrigin="anonymous"
         />
+        <link rel="icon" href="favicon.ico" sizes="any" />
       </head>
 
       <body>{children}</body>
